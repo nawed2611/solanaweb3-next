@@ -1,11 +1,10 @@
 import type { NextPage } from 'next'
 import { useState } from 'react'
-import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import AddressForm from '../components/AddressForm'
 import * as web3 from '@solana/web3.js'
 import { Keypair } from '@solana/web3.js'
+
 
 const Home: NextPage = () => {
   console.log(web3)
